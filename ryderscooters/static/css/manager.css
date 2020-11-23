@@ -94,20 +94,7 @@
             bottom: 0;
         }
         
-        .no-touch .scrollable.hover {
-            overflow-y: hidden;
-        }
-        
-        .no-touch .scrollable.hover:hover {
-            overflow-y: auto;
-            overflow: visible;
-        }
-        
-        a:hover,
-        a:focus {
-            text-decoration: none;
-        }
-        
+    
         nav {
             -webkit-user-select: none;
             -moz-user-select: none;
@@ -123,19 +110,8 @@
             padding: 0;
         }
         
-        .main-menu li:hover>a,
-        nav.main-menu li.active>a,
-        .dropdown-menu>li>a:hover,
-        .dropdown-menu>li>a:focus,
-        .dropdown-menu>.active>a,
-        .dropdown-menu>.active>a:hover,
-        .dropdown-menu>.active>a:focus,
-        .no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
-        .dashboard-page nav.dashboard-menu ul li.active a {
-            color: #fff;
-            background-color: #ce554c;
-        }
-        
+
+    
         .area {
             float: left;
             background-image: url("/static/images/background.jpg");
